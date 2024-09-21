@@ -125,7 +125,7 @@ const Chat = () => {
           <img src="./info.png" alt="" />
         </div>
       </div>
-      <div className="center">
+      <div className="center scrollbar">
         {chat?.messages?.map((message) => (
           <div
             className={`message ${
@@ -160,7 +160,7 @@ const Chat = () => {
             onChange={handleImg}
           />
           <img src="./camera.png" alt="" />
-          <img src="./img.png" alt="" />
+          <img src="./mic.png" alt="" />
         </div>
         <input
           type="text"
